@@ -266,13 +266,31 @@ a.social:hover {
   margin-bottom: 24px;
 }
 
+.skills-list {
+  padding: 0;
+  list-style-type: none;
+}
+
 .process-section h4 {
   text-transform: uppercase;
 }
 
-.skills-list {
-  padding: 0;
-  list-style-type: none;
+.process-section ul {
+  padding-left: 0;
+}
+
+.process-section li {
+  display: inline;
+  white-space: nowrap;
+}
+
+.process-section li:after{
+  content: ' \2022';
+}
+
+.process-section li:last-child:after
+{
+  content: '';
 }
 
 /* Styles for larger screens */
