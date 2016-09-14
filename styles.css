@@ -199,16 +199,19 @@ a.social:hover {
 #resume h2 {
   font-size: 1.75em;
   font-weight: 100;
+  line-height: 0.25em;
   text-transform: uppercase;
 }
 
 #resume h3 {
   font-size: 1.5em;
   font-weight: 100;
+  line-height: 0.25em;
 }
 
 #resume h4 {
   font-size: 1.25em;
+  line-height: 0.25em;
 }
 
 .resume-header {
@@ -217,10 +220,9 @@ a.social:hover {
   line-height: 0.25em;
 }
 
-.experience-section {
+.experience-section, .activities-section {
   width: 70%;
   margin-left: 50px;
-  line-height: 0.25em;
 }
 
 .experience-section h2 {
