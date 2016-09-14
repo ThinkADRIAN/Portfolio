@@ -187,7 +187,9 @@ a.social:hover {
 }
 
 #resume {
+  margin-top: 50px;
   text-align: left;
+  line-height: 1.5em;
 }
 
 #resume h1 {
@@ -215,14 +217,20 @@ a.social:hover {
 }
 
 .resume-header {
-  margin-top: 100px;
-  margin-left: 50px;
   line-height: 0.25em;
 }
 
-.experience-section, .activities-section {
-  width: 70%;
-  margin-left: 50px;
+#main-section {
+  float: left;
+  width: 55%;
+  margin-left: 10%;
+  margin-right: 5%
+}
+
+#sidebar {
+  float: right;
+  width: 20%;
+  margin-right: 10%;
 }
 
 .experience-section h2 {
@@ -255,7 +263,6 @@ a.social:hover {
 }
 
 .job-accomplishments {
-  line-height: 1.5em;
   margin-bottom: 24px;
 }
 
