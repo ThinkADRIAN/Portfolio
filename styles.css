@@ -222,15 +222,15 @@ a.social:hover {
 
 #main-section {
   float: left;
-  width: 50%;
-  margin-left: 15%;
+  width: 55%;
+  margin-left: 10%;
   margin-right: 5%
 }
 
 #sidebar {
   float: right;
-  width: 15%;
-  margin-right: 15%;
+  width: 20%;
+  margin-right: 10%;
 }
 
 .experience-section h2 {
