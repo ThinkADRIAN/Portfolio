@@ -186,6 +186,32 @@ a.social:hover {
   clear: both;
 }
 
+#resume {
+  text-align: left;
+}
+
+#resume h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.resume-header {
+  margin-top: 100px;
+  margin-left: 50px;
+  line-height: 0.25em;
+}
+
+.resume-header h1 {
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.experience-section {
+  width: 80%;
+  margin-left: 50px;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
