@@ -190,9 +190,25 @@ a.social:hover {
   text-align: left;
 }
 
+#resume h1 {
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#resume h2 {
+  font-size: 1.75em;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
 #resume h3 {
   font-size: 1.5em;
   font-weight: 100;
+}
+
+#resume h4 {
+  font-size: 1.25em;
 }
 
 .resume-header {
@@ -201,15 +217,44 @@ a.social:hover {
   line-height: 0.25em;
 }
 
-.resume-header h1 {
-  font-size: 3em;
-  font-weight: 900;
-  text-transform: uppercase;
+.experience-section {
+  width: 70%;
+  margin-left: 50px;
+  line-height: 0.25em;
 }
 
-.experience-section {
-  width: 80%;
-  margin-left: 50px;
+.experience-section h2 {
+  margin-top: 2em;
+}
+
+.experience-section h3 {
+  margin-top: .25em;
+}
+
+.experience-section .job-title {
+  text-transform: uppercase;
+  float: left;
+}
+
+.experience-section .job-dates {
+  float: right;
+}
+
+.company-name {
+  clear: both;
+}
+
+.company-name-note {
+  font-weight: 100;
+}
+
+.company-location {
+  font-weight: 100;
+}
+
+.job-accomplishments {
+  line-height: 1.5em;
+  margin-bottom: 24px;
 }
 
 /* Styles for larger screens */
