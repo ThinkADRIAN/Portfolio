@@ -266,6 +266,15 @@ a.social:hover {
   margin-bottom: 24px;
 }
 
+.process-section h4 {
+  text-transform: uppercase;
+}
+
+.skills-list {
+  padding: 0;
+  list-style-type: none;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
