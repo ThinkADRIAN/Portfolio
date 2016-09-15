@@ -257,12 +257,12 @@ a.social:hover {
   margin-top: .25em;
 }
 
-.experience-section .job-title {
+.job-title {
   text-transform: uppercase;
   float: left;
 }
 
-.experience-section .job-dates {
+.job-dates {
   float: right;
 }
 
@@ -365,4 +365,19 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+@media (max-width: 720px) {
+  #main-section,
+  #sidebar {
+    float: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%
+  }
+
+  .job-title,
+  .job-dates {
+    float:none;
+  }
 }
