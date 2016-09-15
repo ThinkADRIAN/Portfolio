@@ -218,6 +218,15 @@ a.social:hover {
   margin: 0;
 }
 
+#resume a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#resume a:hover {
+  color: #6633ff;
+}
+
 #resume li {
   line-height: 1.5em;
 }
