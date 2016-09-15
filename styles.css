@@ -380,4 +380,12 @@ a.social:hover {
   .job-dates {
     float:none;
   }
+
+  #resume {
+    font-size: 0.85em;
+  }
+
+  .education-section {
+    margin-bottom: 50px;
+  }
 }
