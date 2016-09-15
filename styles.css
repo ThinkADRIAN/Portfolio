@@ -367,6 +367,13 @@ a.social:hover {
 
 }
 
+@media (max-width: 1024px) {
+  .job-title,
+  .job-dates {
+    float:none;
+  }
+}
+
 @media (max-width: 720px) {
   #main-section,
   #sidebar {
