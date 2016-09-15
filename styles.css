@@ -189,52 +189,58 @@ a.social:hover {
 #resume {
   margin-top: 50px;
   text-align: left;
-  line-height: 1.5em;
 }
 
 #resume h1 {
   font-size: 3em;
   font-weight: 900;
   text-transform: uppercase;
+  margin: 0;
 }
 
 #resume h2 {
   font-size: 1.75em;
   font-weight: 100;
-  line-height: 0.25em;
+  margin: 0;
   text-transform: uppercase;
 }
 
 #resume h3 {
   font-size: 1.5em;
   font-weight: 100;
-  line-height: 0.25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 #resume h4 {
   font-size: 1.25em;
-  line-height: 0.25em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+#resume li {
+  line-height: 1.5em;
 }
 
 .resume-header {
-  line-height: 0.25em;
+  margin-bottom: 1.5em;
 }
 
 #main-section {
   float: left;
-  width: 55%;
-  margin-left: 10%;
+  width: 50%;
+  margin-left: 15%;
   margin-right: 5%
 }
 
 #sidebar {
   float: right;
-  width: 20%;
-  margin-right: 10%;
+  width: 15%;
+  margin-right: 15%;
 }
 
 .experience-section h2 {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .experience-section h3 {
@@ -262,13 +268,29 @@ a.social:hover {
   font-weight: 100;
 }
 
+.job-summary {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 .job-accomplishments {
+  padding-left: 20px;
   margin-bottom: 24px;
+}
+
+.activities {
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+#sidebar ul {
+  margin-top: 0.25em;
 }
 
 .skills-list {
   padding: 0;
   list-style-type: none;
+  white-space: nowrap;
 }
 
 .process-section h4 {
@@ -284,13 +306,16 @@ a.social:hover {
   white-space: nowrap;
 }
 
-.process-section li:after{
+.process-section li:after {
   content: ' \2022';
 }
 
-.process-section li:last-child:after
-{
+.process-section li:last-child:after {
   content: '';
+}
+
+.education-section p {
+  margin-top: 0.5em;
 }
 
 /* Styles for larger screens */
