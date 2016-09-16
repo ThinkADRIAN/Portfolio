@@ -111,6 +111,16 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.web-tech-logos {
+  margin: 0 10%;
+  width: 80%;
+}
+
+.ruby-tech-logos {
+  margin: 0 25%;
+  width: 50%
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
